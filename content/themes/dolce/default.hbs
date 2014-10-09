@@ -26,9 +26,17 @@
     {{! Everything else gets inserted here }}
     {{{body}}}
 
+    <section class="site-sponsors">
+      Presented by:
+      <ul class="sponsors">
+        <li><a href="#">Acme</a></li>
+        <li><a href="#">WidgetCo</a></li>
+        <li><a href="#">Ted's Bikes</a></li>
+      </ul>
+    </section>
+
     <footer class="site-footer clearfix">
          <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-         <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
     </footer>
 
     {{! Ghost outputs important scripts and data with this tag }}
